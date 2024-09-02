@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>APIs</title>
+</head>
+<body>
+  <header>
+    <h1>APIs</h1>
+  </header>
+  <main>
+    <section>
+      <h2>PokéAPI</h2>
+      <p>Busque a imagem do Pokémon</p>
+      <input id="input-pokemon" type="text" placeholder="Digite o nome do Pokémon">
+      <button id="button-pokemon">Buscar</button>
+      <div>
+        <img id="image-pokemon"></img>
+      </div>
+    </section>
+    <section>
+      <h2>ViaCEP</h2>
+      <p>Busque o endereço do CEP</p>
+      <input id="input-cep" type="text" placeholder="Digite o CEP (sem hífen)">
+      <button id="button-cep">Buscar</button>
+      <div>
+        <p id="logradouro"></p>
+        <p id="complemento"></p>
+        <p id="unidade"></p>
+        <p id="bairro"></p>
+        <p id="localidade"></p>
+        <p id="estado"></p>
+      </div>
+    </section>
+    <section>
+      <h2>JSONPlaceholder</h2>
+      <div>
+        <p>Veja um post específico</p>
+        <input id="input-getPost" type="text" placeholder="Digite o ID do post">
+        <button id="button-getPost">Buscar</button>
+        <div>
+          <h3 id="getPostTitle"></h3>
+          <p id="getPostBody"></p>
+        </div>
+      </div>
+      <div>
+        <p>Poste algo</p>
+        <input id="create-titlePost" type="text" placeholder="Digite o título do post">
+        <input id="create-bodyPost" type="text" placeholder="Digite o corpo do post">
+        <input id="create-userPost" type="text" placeholder="Digite o ID do usuário">
+        <button id="button-post">Postar</button>
+        <div>
+          <h3 id="newPostTitle"></h3>
+          <p id="newPostUser"></p>
+          <p id="newPostBody"></p>
+        </div>
+      </div>
+      <div>
+        <p>Atualize um post</p>
+        <input id="update-idPost" type="text" placeholder="Digite o ID do post">
+        <input id="update-titlePost" type="text" placeholder="Digite o título do post">
+        <input id="update-bodyPost" type="text" placeholder="Digite o corpo do post">
+        <input id="update-userPost" type="text" placeholder="Digite o ID do usuário">
+        <button id="button-put">Editar post</button>
+        <div>
+          <h3 id="updatedPostTitle"></h3>
+          <p id="updatedPostUser"></p>
+          <p id="updatedPostBody"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
