@@ -4,7 +4,7 @@ Instituto Federal do Piauí
 
 Campus Teresina Central
 
-Análise e Desenvolvimento de Sistemas 2023.2
+Análise e Desenvolvimento de Sistemas 2023.1
 
 Professor: Ely Miranda da Silva
 
